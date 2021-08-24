@@ -35,8 +35,8 @@ class Parking
             System.out.println("3 removee parking ");
             System.out.println("4 exit ");
             int option=scan.nextInt();
-            switch(option)
-            {
+            switch(option) 
+            { 
                 case 1:
                         showAvailableParking(car,bike,heavy);
                         break;
